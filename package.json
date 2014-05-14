@@ -1,6 +1,6 @@
 {
   "name": "whiteboard.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Collaborative canvas drawing using Socket.io",
   "scripts": {
     "test": "make test"
