@@ -23,3 +23,5 @@ $(function() {
 	$("#canvas").whiteboard();
 });
 ```
+
+See attached directory for example application.
