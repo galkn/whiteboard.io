@@ -1,0 +1,77 @@
+body
+  padding: 50px
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  overflow: auto
+  
+html, body
+  width:  100%
+  height: 100%
+  margin: 0px
+  
+a
+  color: #00B7FF
+
+#canvas
+  border: 1px solid #888
+  display: block
+  
+#ui
+  margin-top: 55px
+  margin-left: 50px
+
+#users
+  float: left
+  
+.user
+  display: block
+  height: 10px
+  width: 10px
+  
+#controls, h1
+  position: relative
+  z-index: 5
+  
+#draw_something, #controls
+  position: absolute
+  z-index: 5
+  top: 0
+  left: 0px
+  overflow: auto
+
+#controls
+  left: 100px
+  top: 35px
+
+#controls a
+  float: left
+  display: block
+  text-decoration: none
+  border: none
+  color: #fff
+  padding: 10px
+  background: #ddd
+  border-radius: 20px 0 0 20px
+	-moz-border-radius: 20px 0 0 20px
+	-webkit-border-radius: 20px 0 0 20px
+	margin: 0
+	cursor: pointer 
+	border-right: 1px solid #fff
+
+#controls a.disabled
+  color: #eee
+
+#controls a:hover
+  background: #ccc
+
+#controls a.disabled:hover
+  background: #ddd
+
+#controls #undo
+  border-radius: 0px
+	-moz-border-radius: 0px
+	-webkit-border-radius: 0px
+
+#controls #redo
+  border-radius: 0 20px 20px 0
+	-moz-border-radius: 0 20px 20px 0
+	-webkit-border-radius: 0 20px 20px 0
